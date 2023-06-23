@@ -20,9 +20,13 @@ body {
 }
 .skill-img{
   height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    object-fit: fill;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.profile-thumb{
+  width: 250px !important;
+  height: 250px !important;
 }
 .d-flex{
   display: flex;
@@ -35,6 +39,13 @@ body {
 }
 .services-padding{
   padding:5em 0 !important;
+}
+.orange-text{
+  color: #FF9000;
+}
+.footer-icon{
+  color: black !important;
+  font-size: 35px !important;
 }
 #fh5co-skills , #fh5co-resume , #fh5co-about{
   padding:5em 0 !important;
