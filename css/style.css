@@ -28,6 +28,9 @@ body {
   width: 250px !important;
   height: 250px !important;
 }
+.m-0{
+  margin: 0 !important;
+}
 .d-flex{
   display: flex;
 }
