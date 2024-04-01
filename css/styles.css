@@ -3527,7 +3527,7 @@ td:last-child {
 	align-items   : center;
 	height        : 100%;
 	color         : var(--color-3);
-	padding-top   : 20px;
+	padding-top   : 35px;
 	padding-bottom: 0px;
 	position      : relative;
 }
