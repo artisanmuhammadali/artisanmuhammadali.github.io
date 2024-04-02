@@ -3441,7 +3441,7 @@ td:last-child {
 
 .s-pageheader .page-title {
 	margin-top : 0;
-	font-size  : clamp(5.2rem, 10vw, var(--text-huge-1));
+	font-size  : clamp(5.2rem, 10vw, 10rem);
 	line-height: 1.0465;
 	color      : var(--color-3);
 }
@@ -3527,7 +3527,7 @@ td:last-child {
 	align-items   : center;
 	height        : 100%;
 	color         : var(--color-3);
-	padding-top   : 35px;
+	padding-top   : 0px;
 	padding-bottom: 0px;
 	position      : relative;
 }
@@ -3563,7 +3563,7 @@ td:last-child {
 }
 
 .s-intro__content-title {
-	font-size    : clamp(5rem, 7vw, 11.6rem);
+	font-size    : clamp(5rem, 7vw, 7rem);
 	line-height  : 1;
 	margin-top   : 0;
 	margin-bottom: var(--vspace-1_25);
@@ -3839,6 +3839,9 @@ td:last-child {
 	.s-intro__scroll-down span {
 		font-size: var(--text-sm);
 	}
+	.s-intro-padding{
+		padding-top: 65px !important;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -3849,6 +3852,9 @@ td:last-child {
 	.s-intro__content-media .lines {
 		width    : 200%;
 		transform: translate(-100%, 0);
+	}
+	.s-intro-padding{
+		padding-top: 65px !important;
 	}
 }
 
@@ -3867,6 +3873,9 @@ td:last-child {
 
 	.s-intro__scroll-down span {
 		display: none;
+	}
+	.s-intro-padding{
+		padding-top: 65px !important;
 	}
 }
 
@@ -4040,7 +4049,7 @@ td:last-child {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1600px) {
 	.clients-list__item {
-		width: 20%;
+		width: 25%;
 	}
 }
 
