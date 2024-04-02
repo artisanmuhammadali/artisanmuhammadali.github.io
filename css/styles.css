@@ -1180,6 +1180,9 @@ h6,
 .social-icon{
 	font-size: 25px !important;
 }
+.social-icon:hover{
+	color: var(--color-1-light);
+}
 h1,
 .h1 {
 	margin-top   : var(--vspace-2_5);
