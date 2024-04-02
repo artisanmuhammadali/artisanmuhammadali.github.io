@@ -3985,7 +3985,7 @@ td:last-child {
 .s-clients {
 	padding-top     : 30px;
 	padding-bottom  : 30px;
-	background-color: var(--color-3);
+	background-color: #fff;
 }
 
 .s-clients__content-block:first-child {
