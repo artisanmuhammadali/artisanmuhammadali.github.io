@@ -3589,7 +3589,7 @@ td:last-child {
 	width         : max(440px, 10vw);
 	margin        : 0;
 	-o-object-fit : cover;
-	object-fit    : cover;
+	object-fit    : contain;
 	aspect-ratio  : 2/2.5;
 	vertical-align: bottom;
 	box-shadow    : 0 60px 40px -40px rgba(0, 0, 0, 0.2);
