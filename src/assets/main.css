@@ -3964,7 +3964,7 @@ font-family: Poppins ,  Poppins Placeholder , sans-serif; font-size:12px; font-w
   overflow: hidden;
   padding: 0;
   position: relative;
-  width: 696px
+  width: 100%;
 }
 
 .app-form .app-form-row {
@@ -4010,7 +4010,7 @@ font-family: Poppins ,  Poppins Placeholder , sans-serif; font-size:12px; font-w
   width: auto
 }
 
-.app-form .app-1xhb14s,
+.app-form .app-name-div,
 .app-form .app-email-input,
 .app-form .app-766fm1 {
   --app-input-focused-border-color: var(--color-secondary, #f46c38);
@@ -4044,7 +4044,7 @@ font-family: Poppins ,  Poppins Placeholder , sans-serif; font-size:12px; font-w
   width: 100%
 }
 
-.app-form .app-87l6yk {
+.app-form .app-message-div {
   --app-input-focused-border-color: var(--color-secondary, #f46c38);
   --app-input-focused-border-style: solid;
   --app-input-focused-border-width: 1px;

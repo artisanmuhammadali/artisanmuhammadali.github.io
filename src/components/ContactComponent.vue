@@ -10,7 +10,7 @@
               <div class="app-form-control">
                 <p class="app-text">Name</p>
               </div>
-              <div class="input-div app-form-text-input app-form-input-wrapper app-1xhb14s"><input
+              <div class="input-div app-form-text-input app-form-input-wrapper app-name-div"><input
                   type="text" required name="from_name" placeholder="Your Name"
                   class="app-form-input app-form-input-empty" value="">
               </div>
@@ -28,7 +28,7 @@
             <div class="app-form-control">
               <p class="app-text">Message</p>
             </div>
-            <div class="input-div app-form-text-input app-form-input-wrapper app-87l6yk"><textarea required
+            <div class="input-div app-form-text-input app-form-input-wrapper app-message-div"><textarea required
                 name="message" placeholder="Message" class="app-form-input"></textarea></div>
           </label>
           <div class="app-btn-container" id="contact">
