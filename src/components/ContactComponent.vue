@@ -57,15 +57,15 @@ export default {
           () => {
             Swal.fire({
               icon: "success",
-              title: "Email Sent",
-              text: "Your email was sent successfully!",
+              title: "Thank you!",
+              text: "I have received your message and will get back to you shortly. Please keep an eye on your email for my response.",
             });
           },
           (error) => {
             Swal.fire({
               icon: "error",
               title: "Oops...",
-              text: "Failed to send email. Please try again.",
+              text: "Failed to send your message. Please try again.",
             });
           },
         );
